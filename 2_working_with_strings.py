@@ -44,15 +44,17 @@
 # 3. Indexing and Slicing
 # ----------------------------------------
 
-chicago_mayor = "Johnson"
-print(chicago_mayor[0])
-print(chicago_mayor[-1])
-print(chicago_mayor[4])
-print(chicago_mayor[ 4 : ])
-print(chicago_mayor[ 0 : 4 ])
+# chicago_mayor = "Johnson"
+# print(chicago_mayor[0])
+# print(chicago_mayor[-1])
+# print(chicago_mayor[4])
+# print(chicago_mayor[ 4 : ])
+# print(chicago_mayor[ 0 : 4 ])
 # When we get one character/letter, its called string indexing
 # When we get a chunk of letters, its called string slicing
 # Indexing: Access characters by position (0-based index)
+# phrase3 = "supercagifragilstic"
+
 # print("First character:", phrase[0])  # Output: P
 # print("Last character:", phrase[-1])  # Output: !
 
@@ -80,11 +82,13 @@ print(chicago_mayor[ 0 : 4 ])
 # # String Methods
 # # ----------------------------------------
 
-# sentence = "Python is fun to learn"
+sentence = "Python is fun to learn"
 
 # # .split(): Splits the string into a list of words
-# words = sentence.split()
-# print("Split result:", words)
+words = sentence.split()
+print("Split result:", words)
+words2 = sentence.join(",")
+print(words2)
 
 # # .format(): Allows inserting values into strings using {}
 # name = "Marvin"

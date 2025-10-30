@@ -13,16 +13,20 @@ favorite_number = 9
 print("Name Uppercase:", first_name.upper())
 
 # 2. Print how many letters are in your name
-print("Length of phrase:", len(first_name))
+print(len(first_name))
 
 # 3. Combine your name and favorite color into one message
-print(first_name())
+print(len(first_name))
 print(favorite_color())
 
 #  Step 3: Math Practice
 # Use arithmetic operators with your favorite number
-
-
+num1 = 3
+num2 = 3
+num3 = int(input("what is your 3rd fav"))
+num4 = int(input("what is your 4th fav"))
+print(num1 + num2)
+print(num3 + num4)
 #  Step 4: User Input Practice
 # Ask the user two questions and combine answers
 

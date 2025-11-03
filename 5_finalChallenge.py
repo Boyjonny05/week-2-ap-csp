@@ -16,4 +16,12 @@
 
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
-# Cheers and good luck.                                       =
+# Cheers and good luck.
+# Ask your friend two creative questions
+flavor = input("What's your favorite flavor or ingredient? (one word): ")
+vibe = input("What's a word that describes the vibe of your beer? (one word): ")
+
+beer_name = flavor.capitalize() + " " + vibe.capitalize()
+
+print("\nYour new beer brand is called:")
+print(f"\"{beer_name}\"")
